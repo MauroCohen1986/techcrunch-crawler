@@ -1,7 +1,5 @@
 package com.headsup.techcrunch.crawler.client;
 
-import java.sql.Clob;
-
 import lombok.Builder;
 import lombok.Data;
 

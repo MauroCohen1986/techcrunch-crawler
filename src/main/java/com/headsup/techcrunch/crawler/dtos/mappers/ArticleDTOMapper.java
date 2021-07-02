@@ -1,5 +1,6 @@
-package com.headsup.techcrunch.crawler.dtos;
+package com.headsup.techcrunch.crawler.dtos.mappers;
 
+import com.headsup.techcrunch.crawler.dtos.ArticleDTO;
 import com.headsup.techcrunch.crawler.model.Article;
 
 public class ArticleDTOMapper {

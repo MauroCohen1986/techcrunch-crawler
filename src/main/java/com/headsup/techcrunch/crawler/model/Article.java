@@ -1,5 +1,7 @@
 package com.headsup.techcrunch.crawler.model;
 
+import com.headsup.techcrunch.crawler.exception.TechCrunchCrawlerException;
+
 import java.io.Reader;
 import java.sql.Clob;
 import java.sql.SQLException;
@@ -46,7 +48,7 @@ public class Article {
                 }
             }
         } catch (Exception exception) {
-            throw new RuntimeException("Problem reading clob field.",exception);
+            throw new TechCrunchCrawlerException("Problem reading clob field.",exception);
         }
         return buffer.toString();
     }

@@ -2,7 +2,7 @@ package com.headsup.techcrunch.crawler.services;
 
 import com.headsup.techcrunch.crawler.daos.ArticleDAO;
 import com.headsup.techcrunch.crawler.dtos.ArticleDTO;
-import com.headsup.techcrunch.crawler.dtos.ArticleDTOMapper;
+import com.headsup.techcrunch.crawler.dtos.mappers.ArticleDTOMapper;
 import com.headsup.techcrunch.crawler.model.Article;
 import com.headsup.techcrunch.crawler.model.Author;
 
