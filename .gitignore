@@ -1,0 +1,21 @@
+dist/*
+target/
+project/.sbtserver
+project/.sbtserver.lock
+.sbtserver
+.DS_Store
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+.shelf/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Visual Studio Code
+.vscode/
